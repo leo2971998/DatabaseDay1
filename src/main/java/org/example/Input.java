@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class Main {
+public class Input {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         Connection Con = null;
         PreparedStatement pstmt = null;
@@ -34,7 +34,7 @@ public class Main {
         //1. Specify the driver
         Class.forName("oracle.jdbc.driver.OracleDriver");
         //2. Specify URL(IP Address/ DB Name/ Username/ Password
-        Con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "leo", "binpro321");
+        Con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "leo", "leo29798");
         //3. Create statement
         pstmt = Con.prepareStatement("Insert into Employee values(?, ?, ?, ?, ?, ?, ?, ?)");
         pstmt.setInt(1, eno);
