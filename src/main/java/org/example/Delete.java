@@ -12,7 +12,7 @@ public class Delete {
         Connection Con = null;
         PreparedStatement pstmt = null;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Employee Number to Delete: ");
+        System.out.println("Enter the Employee Number to delete:");
         int Empno = sc.nextInt();
         //Step 1
         //1. Specify the driver

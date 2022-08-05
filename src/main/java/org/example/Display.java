@@ -39,8 +39,21 @@ public class Display {
         // ResultSet is initially before the first data set
         System.out.println(String.format("%5s %20s %20s %10s %15s %10s %10s %5s", "EMPNO", "ENAME"
                 , "JOB", "MGR", "HIREDATE", "SAL", "COMM", "DEPTNO"));
-
-
+        while (resultSet.next()) {
+            // It is possible to get the columns via name
+            // also possible to get the columns via the column number
+            // which starts at 1
+            // e.g. resultSet.getSTring(2);
+            int Empno = resultSet.getInt("EMPNO");
+            String Ename = resultSet.getString("ENAME");
+            String Job = resultSet.getString("JOB");
+            int MGR = resultSet.getInt("MGR");
+            Date Hd = resultSet.getDate("HIREDATE");
+            double sal = resultSet.getDouble("SAL");
+            double comm = resultSet.getDouble("COMM");
+            int DeptNo = resultSet.getInt("DEPTNO");
+            System.out.println(String.format("%5s %20s %20s %10s %15s %10s %10s %5s", Empno, Ename, Job, MGR, formatter.format(Hd), df.format(sal), df.format(comm), DeptNo));
+        }
     }
 
 }

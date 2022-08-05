@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be524c33-3eaf-4789-9529-def27147da42" name="Changes" comment="">
+    <list default="true" id="be524c33-3eaf-4789-9529-def27147da42" name="Changes" comment="Updated!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InsertProcedures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UpdateProcedures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Delete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Update.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +45,11 @@
     "last_opened_file_path": "C:/Project Assignments/DatabaseTest",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.UpdateProcedures">
     <configuration name="Delete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Delete" />
       <module name="DatabaseTest" />
@@ -76,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Input" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Input" />
+    <configuration name="InsertProcedures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.InsertProcedures" />
       <module name="DatabaseTest" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +89,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Test" />
+    <configuration name="Procedures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Procedures" />
+      <module name="DatabaseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateProcedures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UpdateProcedures" />
       <module name="DatabaseTest" />
       <extension name="coverage">
         <pattern>
@@ -104,10 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.UpdateProcedures" />
+        <item itemvalue="Application.InsertProcedures" />
+        <item itemvalue="Application.Procedures" />
         <item itemvalue="Application.Display" />
         <item itemvalue="Application.Delete" />
-        <item itemvalue="Application.Input" />
       </list>
     </recent_temporary>
   </component>
@@ -120,6 +134,14 @@
       <option name="presentableId" value="Default" />
       <updated>1659627197458</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated!">
+      <created>1659645239187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659645239187</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,5 +154,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated!" />
   </component>
 </project>
